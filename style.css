@@ -1,0 +1,67 @@
+/* Base Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+section {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#options button {
+  
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+/* Responsive Options */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+}
